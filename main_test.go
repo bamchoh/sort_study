@@ -51,3 +51,11 @@ func TestCombSort(t *testing.T) {
 func TestGnomeSort(t *testing.T) {
 	testMain(t, gnomeSort)
 }
+
+func TestSelectionSort(t *testing.T) {
+	testMain(t, selectionSort)
+}
+
+func TestInsertionSort(t *testing.T) {
+	testMain(t, insertionSort)
+}
