@@ -59,3 +59,7 @@ func TestSelectionSort(t *testing.T) {
 func TestInsertionSort(t *testing.T) {
 	testMain(t, insertionSort)
 }
+
+func TestShellSort(t *testing.T) {
+	testMain(t, shellSort)
+}
