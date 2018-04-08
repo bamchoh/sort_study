@@ -63,3 +63,7 @@ func TestInsertionSort(t *testing.T) {
 func TestShellSort(t *testing.T) {
 	testMain(t, shellSort)
 }
+
+func TestBinarySearchSort(t *testing.T) {
+	testMain(t, binarySearchSort)
+}
