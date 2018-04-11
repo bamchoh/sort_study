@@ -67,3 +67,11 @@ func TestShellSort(t *testing.T) {
 func TestBinarySearchSort(t *testing.T) {
 	testMain(t, binarySearchSort)
 }
+
+func TestMergeSort(t *testing.T) {
+	testMain(t, mergeSort)
+}
+
+func TestLibrarySort(t *testing.T) {
+	testMain(t, librarySort)
+}
