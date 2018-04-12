@@ -75,3 +75,7 @@ func TestMergeSort(t *testing.T) {
 func TestLibrarySort(t *testing.T) {
 	testMain(t, librarySort)
 }
+
+func TestHeapSort(t *testing.T) {
+	testMain(t, heapSort)
+}
