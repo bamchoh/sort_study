@@ -79,3 +79,7 @@ func TestLibrarySort(t *testing.T) {
 func TestHeapSort(t *testing.T) {
 	testMain(t, heapSort)
 }
+
+func TestQuickSort(t *testing.T) {
+	testMain(t, quickSort)
+}
