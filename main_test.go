@@ -87,3 +87,11 @@ func TestQuickSort(t *testing.T) {
 func TestIntroSort(t *testing.T) {
 	testMain(t, introSort)
 }
+
+func TestOddEvenSort(t *testing.T) {
+	testMain(t, oddEvenSort)
+}
+
+func TestGoOddEvenSort(t *testing.T) {
+	testMain(t, oddEvenSort2)
+}
