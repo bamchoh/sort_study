@@ -95,3 +95,7 @@ func TestOddEvenSort(t *testing.T) {
 func TestGoOddEvenSort(t *testing.T) {
 	testMain(t, oddEvenSort2)
 }
+
+func TestShearSort(t *testing.T) {
+	testMain(t, shearSort)
+}
